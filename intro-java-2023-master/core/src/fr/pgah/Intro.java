@@ -73,7 +73,7 @@ public class Intro extends ApplicationAdapter {
     if (onmontex){
         x = x + vitesse;} 
         else{
-        x = x -vitesse;
+        x = x -vitesse; //vitesse
       }
 
     if (onmontey){
