@@ -24,6 +24,7 @@ public class avancé extends ApplicationAdapter {
     coordonneesX = new int[2];
     coordonneesX[0] = 0; //affectation
     coordonneesX[1] = 100;
+
     coordonneesY = new int[2];
     coordonneesY[0] = 0;
     coordonneesY[1] = 200;
@@ -50,6 +51,8 @@ public class avancé extends ApplicationAdapter {
     for (int i = 0; i <= 1; i++) { // Pour 1 allant de 0 à 1 faire :
       batch.draw(imgs[i], coordonneesX[i], coordonneesY[i]); // corps de la méthode
     }
+    batch.begin();
+    batch.draw(imgs[0], coordonneesX[0], coordonneesY[0]);
     batch.end(); // corps de la méthode
   }
 
