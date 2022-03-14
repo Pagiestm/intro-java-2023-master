@@ -1,3 +1,3 @@
 # intro-java-2023-master
 
-Découverte du langage Java
+Vous pourrez retrouver ici tout les petits projets réaliser dans le langage 
